@@ -1,12 +1,14 @@
-import { allPosts } from "@/lib/posts";
-import { notFound } from "next/navigation";
-import LikeButton from "@/components/LikeButton";
+import { allPosts } from '@/lib/posts';
+import { notFound } from 'next/navigation';
+import LikeButton from '@/components/LikeButton'; 
+
 
 interface PostPageProps {
   params: {
     slug: string;
   };
 }
+
 
 export async function generateStaticParams() {
   return allPosts.map((post) => ({
@@ -15,6 +17,7 @@ export async function generateStaticParams() {
 }
 
 export default function PostPage({ params }: PostPageProps) {
+
   const post = allPosts.find((p) => p.slug === params.slug);
 
   if (!post) {
@@ -29,11 +32,13 @@ export default function PostPage({ params }: PostPageProps) {
         {post.excerpt}
       </div>
       <div className="text-gray-800 leading-relaxed">
+
         <p>{post.content}</p>
       </div>
-       <div className="mt-8 flex justify-end">
-      <LikeButton />
-    </div>
+      
+      <div className="mt-8 flex justify-end">
+        <LikeButton />
+      </div>
     </article>
   );
 }
