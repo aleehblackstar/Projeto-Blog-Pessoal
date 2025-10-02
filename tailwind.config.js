@@ -1,18 +1,15 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  // ... outras configurações
   theme: {
     extend: {
       colors: {
-        'polaroid': '#F1E5B1',
-        'golden-tinsel': '#D19D56',
-        'coal': '#262A2E',
-        'mistletoe': '#6E3D34',
-      },
+        'polaroid': 'var(--color-polaroid)',
+        'golden-tinsel': 'var(--color-golden-tinsel)',
+        'coal': 'var(--color-coal)',
+        'mistletoe': 'var(--color-mistletoe)',
+      }
     },
   },
-  plugins: [],
+  // ...
 }
