@@ -56,7 +56,7 @@ Um blog pessoal desenvolvido como parte do projeto do Programa Desenvolve. Este 
 1.  Clone o repositório:
 
     ```bash
-    git clone [https://github.com/aleehblackstar/Projeto-Blog-Pessoal.git](https://github.com/aleehblackstar/Projeto-Blog-Pessoal.git)
+    git clone https://github.com/aleehblackstar/Projeto-Blog-Pessoal.git
     ```
 
 2.  Entre na pasta do projeto:
