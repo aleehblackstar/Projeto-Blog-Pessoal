@@ -1,6 +1,6 @@
 # Blog Pessoal
 
-![Screenshot do Blog](./public/Screenshot.png)
+![Screenshot do Blog](/public/Screenshot.jpg)
 
 Um blog pessoal desenvolvido como parte do projeto do Programa Desenvolve. Este projeto serve para demonstrar conceitos fundamentais do **Next.js 15 App Router**, **TypeScript**, **Tailwind CSS** e outras tecnologias modernas do ecossistema React.
 

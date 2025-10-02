@@ -14,27 +14,19 @@ export default function AboutPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#262A3E]">Sobre Mim</h1>
             </div>
 
+            {/* Versão Resumida em Três Parágrafos com Negrito Corrigido */}
             <div className="space-y-5 text-[#262A3E]/80 leading-relaxed text-xl">
               <p>
-                Olá! Sou <span className="font-bold text-[#6E3D34]">Alexandre Rodrigues</span>, estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> em <strong>migração de carreira</strong> para tecnologia.
+                Olá! Sou <span className="font-bold text-[#6E3D34]">Alexandre Rodrigues</span>, estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> em <strong>migração de carreira</strong>. Minha trajetória começou em áreas como escritório, vendas e móveis planejados, e agora sigo meu interesse por tecnologia. Iniciei com <strong>Python</strong> e evoluí para o desenvolvimento de software completo.
               </p>
-
               <p>
-                Minha trajetória começou em áreas como escritório, vendas e móveis planejados, e agora estou seguindo meu interesse por tecnologia. Iniciei com <strong>Python</strong>, depois me aprofundei em <strong>front-end</strong> e hoje estudo <strong>desenvolvimento de software</strong>, incluindo back-end e bancos de dados.
+                Atualmente foco em um stack moderno que inclui <strong>HTML, CSS, JavaScript, React, Next.js, TypeScript e Tailwind CSS</strong>, aplicando meus conhecimentos em projetos práticos que unem front-end e back-end. Fora da tecnologia, adoro <strong>jogos, animes, filmes</strong> e atividades físicas, momentos que me ajudam a recarregar as energias.
               </p>
-
-              <p>
-                Atualmente foco em <strong>HTML, CSS, JavaScript, React, Next.js, TypeScript e Tailwind CSS</strong>, aplicando meus conhecimentos em projetos práticos que unem front-end e back-end.
-              </p>
-
-              <p>
-                Fora da tecnologia, adoro <strong>jogos, animes, filmes</strong> e atividades físicas. Momentos de lazer me ajudam a recarregar as energias.
-              </p>
-
               <p>
                 Estou em busca da minha <strong>primeira oportunidade na área de tecnologia</strong>, para aplicar meus conhecimentos, aprender com profissionais experientes e contribuir em projetos inovadores.
               </p>
             </div>
+            {/* Fim do Texto Corrigido */}
 
             {/* Redes Sociais */}
             <div className="mt-6 pt-6 border-t-2 border-[#D19D56]/50">
